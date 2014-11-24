@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><EntityDescriptor xmlns="urn:oasis:names:tc:SAML:2.0:metadata" entityID="https://shibboleth.brandeis.edu/idp/shibboleth" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><IDPSSODescriptor protocolSupportEnumeration="urn:mace:shibboleth:1.0 urn:oasis:names:tc:SAML:1.1:protocol urn:oasis:names:tc:SAML:2.0:protocol"><Extensions><shibmd:Scope regexp="false">brandeis.edu</shibmd:Scope></Extensions><KeyDescriptor><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIDSDCCAjCgAwIBAgIVAJ07ki+U+Q1jeqL9/EKoyRbWCMAyMA0GCSqGSIb3DQEB
+BQUAMCIxIDAeBgNVBAMTF3NoaWJib2xldGguYnJhbmRlaXMuZWR1MB4XDTEzMDMw
+ODIwMTczOVoXDTMzMDMwODIwMTczOVowIjEgMB4GA1UEAxMXc2hpYmJvbGV0aC5i
+cmFuZGVpcy5lZHUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCKZIwW
+KwP8VTEQc8aR/fukHycUON1HPpq7LoIjINdzuzMR2C6ZdNRMzbR+4qkQRdeW6Ptp
+9L7C0HMEeIPRhEFh6gdAgl3VwyyDgz/fqMHpXNQn/7Tw+vl3I2Joha69iNQK3K6I
+gNI2E/x2b8YizudhSSCu3RAm7vPLN3gcyc2sRA3KkXvaEWO0jU7GJVTmaCgRpCH0
+Bsv5vZ724UMuuPP1Feu4nhKtqRm0khEA9svRGfDVxhWnPpg8rLT9Yu03IChN8hdq
+NspAQCmDI2OFQB5frAuiQ9MQT7Q9jzBSJ3bcWQsYsdbWNG7Hpl2hBSlUtqR5tzat
+iU1U1LsZAv/wQbgLAgMBAAGjdTBzMFIGA1UdEQRLMEmCF3NoaWJib2xldGguYnJh
+bmRlaXMuZWR1hi5odHRwczovL3NoaWJib2xldGguYnJhbmRlaXMuZWR1L2lkcC9z
+aGliYm9sZXRoMB0GA1UdDgQWBBQPTVgZcvtUxjYUCn8mj6n/ldo5zjANBgkqhkiG
+9w0BAQUFAAOCAQEAVGtWGwmb6iIG3sbWiBvuayHCmiWCl3rZN/CpFYxU5p9Xcuu6
+lcTq6wAY04Cs/v4rjStdsH1REnI6CUyOcLzVCK55bhpyvLCTxQYAaULVg95UmZF2
+Kkr0LXmXHkOfG7nTwY8Qm13tfBAPwqNdHmstlMvw3LAgmy96heq+bHryqbTYKC/V
+dTdUuhV14vl7PJt9y3EqXISJjwNG7wEF9wM0qUIG51qlp4f4MiNaNxJI/cYUC1cw
+7d/XK0tGHAwQxu/IeOIxUYbsUbTSua3u/Xc6WaTwfWxSl96NcOuTnyazB4hkSIYa
+C30ze3MSAph0HLqEHTWk8Ldt2Y3QWku9g5WNlA==</ds:X509Certificate></ds:X509Data></ds:KeyInfo></KeyDescriptor><ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="https://shibboleth.brandeis.edu/idp/profile/SAML1/SOAP/ArtifactResolution" index="1"/><ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://shibboleth.brandeis.edu/idp/profile/SAML2/SOAP/ArtifactResolution" index="2"/><SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://login.brandeis.edu/cgi-bin/logout"/><NameIDFormat>urn:mace:shibboleth:1.0:nameIdentifier</NameIDFormat><NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</NameIDFormat><SingleSignOnService Binding="urn:mace:shibboleth:1.0:profiles:AuthnRequest" Location="https://shibboleth.brandeis.edu/idp/profile/Shibboleth/SSO"/><SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://shibboleth.brandeis.edu/idp/profile/SAML2/POST/SSO"/><SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://shibboleth.brandeis.edu/idp/profile/SAML2/POST-SimpleSign/SSO"/><SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://shibboleth.brandeis.edu/idp/profile/SAML2/Redirect/SSO"/></IDPSSODescriptor><AttributeAuthorityDescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:1.1:protocol urn:oasis:names:tc:SAML:2.0:protocol"><Extensions><shibmd:Scope regexp="false">brandeis.edu</shibmd:Scope></Extensions><KeyDescriptor><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIDSDCCAjCgAwIBAgIVAJ07ki+U+Q1jeqL9/EKoyRbWCMAyMA0GCSqGSIb3DQEB
+BQUAMCIxIDAeBgNVBAMTF3NoaWJib2xldGguYnJhbmRlaXMuZWR1MB4XDTEzMDMw
+ODIwMTczOVoXDTMzMDMwODIwMTczOVowIjEgMB4GA1UEAxMXc2hpYmJvbGV0aC5i
+cmFuZGVpcy5lZHUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCKZIwW
+KwP8VTEQc8aR/fukHycUON1HPpq7LoIjINdzuzMR2C6ZdNRMzbR+4qkQRdeW6Ptp
+9L7C0HMEeIPRhEFh6gdAgl3VwyyDgz/fqMHpXNQn/7Tw+vl3I2Joha69iNQK3K6I
+gNI2E/x2b8YizudhSSCu3RAm7vPLN3gcyc2sRA3KkXvaEWO0jU7GJVTmaCgRpCH0
+Bsv5vZ724UMuuPP1Feu4nhKtqRm0khEA9svRGfDVxhWnPpg8rLT9Yu03IChN8hdq
+NspAQCmDI2OFQB5frAuiQ9MQT7Q9jzBSJ3bcWQsYsdbWNG7Hpl2hBSlUtqR5tzat
+iU1U1LsZAv/wQbgLAgMBAAGjdTBzMFIGA1UdEQRLMEmCF3NoaWJib2xldGguYnJh
+bmRlaXMuZWR1hi5odHRwczovL3NoaWJib2xldGguYnJhbmRlaXMuZWR1L2lkcC9z
+aGliYm9sZXRoMB0GA1UdDgQWBBQPTVgZcvtUxjYUCn8mj6n/ldo5zjANBgkqhkiG
+9w0BAQUFAAOCAQEAVGtWGwmb6iIG3sbWiBvuayHCmiWCl3rZN/CpFYxU5p9Xcuu6
+lcTq6wAY04Cs/v4rjStdsH1REnI6CUyOcLzVCK55bhpyvLCTxQYAaULVg95UmZF2
+Kkr0LXmXHkOfG7nTwY8Qm13tfBAPwqNdHmstlMvw3LAgmy96heq+bHryqbTYKC/V
+dTdUuhV14vl7PJt9y3EqXISJjwNG7wEF9wM0qUIG51qlp4f4MiNaNxJI/cYUC1cw
+7d/XK0tGHAwQxu/IeOIxUYbsUbTSua3u/Xc6WaTwfWxSl96NcOuTnyazB4hkSIYa
+C30ze3MSAph0HLqEHTWk8Ldt2Y3QWku9g5WNlA==</ds:X509Certificate></ds:X509Data></ds:KeyInfo></KeyDescriptor><AttributeService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="https://shibboleth.brandeis.edu/idp/profile/SAML1/SOAP/AttributeQuery"/><AttributeService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://shibboleth.brandeis.edu/idp/profile/SAML2/SOAP/AttributeQuery"/><NameIDFormat>urn:mace:shibboleth:1.0:nameIdentifier</NameIDFormat><NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</NameIDFormat></AttributeAuthorityDescriptor></EntityDescriptor>
